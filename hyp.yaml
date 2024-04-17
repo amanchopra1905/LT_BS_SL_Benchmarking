@@ -1,0 +1,34 @@
+---
+version: "0.1"
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: win
+autosplit: true
+retryOnFailure: true
+maxRetries: 2
+concurrency: 2
+jobLabel: [ '${DATE} - ${DAY}', 'Regression Job']
+testDiscovery:
+  type: raw
+  mode: static
+  command: snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@win10_hypertest_regression
+testRunnerCommand: mvn test `-Dcucumber.features="$test" `-DLT_ENV=prod  `-DsuiteXmlFile=1Parallel.xml
+
+# Test Discovery Comamand: .hyperexecute/snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@win10_hypertest_regression
+# Test Discovery Result: 13
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:22
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:23
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:24
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:25
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:26
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:46
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:47
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:48
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:49
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:68
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:69
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:70
+#     src/main/java/hypertest/features/win10_hypertest_regression.feature:91
+
+#mvn test -Dcucumber.features="src/main/java/hypertest/features/win10_hypertest_regression.feature:22" -DLT_ENV=prod  -DsuiteXmlFile=1Parallel.xml
