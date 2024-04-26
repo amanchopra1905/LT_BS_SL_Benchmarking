@@ -1,0 +1,68 @@
+{"level":"debug","time":"2024-04-26T15:56:02.201+0530","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: amd64"}
+{"level":"debug","time":"2024-04-26T15:56:07.981+0530","caller":"cmd/bin.go:105","msg":"cli os: darwin, cli arch: amd64"}
+{"level":"debug","time":"2024-04-26T15:56:08.836+0530","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.179} "}
+{"level":"info","time":"2024-04-26T15:56:08.837+0530","caller":"cmd/bin.go:122","msg":"Current binary version 0.2.168 is less than max upstream version 0.2.179."}
+{"level":"info","time":"2024-04-26T15:56:08.837+0530","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-04-26T15:56:08.837+0530","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/darwin/hyperexecute"}
+{"level":"debug","time":"2024-04-26T15:56:15.249+0530","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-04-26T15:56:15.249+0530","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2024-04-26T15:56:15.249+0530","caller":"cmd/bin.go:132","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2024-04-26T15:56:20.261+0530","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: amd64"}
+{"level":"debug","time":"2024-04-26T15:56:21.666+0530","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.179} "}
+{"level":"warn","time":"2024-04-26T15:56:23.720+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-26T15:56:23.721+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-26T15:56:23.721+0530","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-26T15:56:23.721+0530","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-26T15:56:23.721+0530","caller":"yamlconfigmanager/setup.go:550","msg":"Custom location for .hyperexecute.yaml specified. Using: hyp.yaml"}
+{"level":"debug","time":"2024-04-26T15:56:23.721+0530","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : hyp.yaml"}
+{"level":"debug","time":"2024-04-26T15:56:24.966+0530","caller":"yamlconfigmanager/setup.go:2074","msg":"Autodetecting test type in files of path : /Users/amanc/Documents/benchmarking/BS_SL_HYP"}
+{"level":"debug","time":"2024-04-26T15:56:24.968+0530","caller":"yamlconfigmanager/setup.go:402","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-26T15:56:24.968+0530","caller":"models/HypertestYamlConfig.go:593","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-26T15:56:24.968+0530","caller":"models/HypertestYamlConfig.go:397","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-26T15:56:24.968+0530","caller":"models/HypertestYamlConfig.go:457","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2024-04-26T15:56:24.969+0530","caller":"models/HypertestYamlConfig.go:465","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-26T15:56:24.969+0530","caller":"models/HypertestYamlConfig.go:526","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-26T15:56:24.969+0530","caller":"models/HypertestYamlConfig.go:558","msg":"Cache Directories:"}
+{"level":"info","time":"2024-04-26T15:56:24.969+0530","caller":"models/HypertestYamlConfig.go:560","msg":"    \u001b[36m.m2\u001b[0m"}
+{"level":"info","time":"2024-04-26T15:56:24.969+0530","caller":"models/HypertestYamlConfig.go:606","msg":""}
+{"level":"debug","time":"2024-04-26T15:56:24.969+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-26T15:56:24.969+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-04-26T15:56:26.107+0530","caller":"snoopermanager/setup.go:195","msg":"upstream version: 1.21.0 "}
+{"level":"debug","time":"2024-04-26T15:56:27.067+0530","caller":"testdiscoverer/discoverer.go:76","msg":"Test Discovery Command: /Users/amanc/Documents/benchmarking/BS_SL_HYP/.hyperexecute/snooper --featureFilePaths=src/main/java/hypertest/features/BS_SL_LT_Benchmarking.feature --frameWork=java --specificTags=@LTBenchmarking_1"}
+{"level":"debug","time":"2024-04-26T15:56:27.067+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: /Users/amanc/Documents/benchmarking/BS_SL_HYP/.hyperexecute/snooper  --targetOs=win --featureFilePaths=src/main/java/hypertest/features/BS_SL_LT_Benchmarking.feature --frameWork=java --specificTags=@LTBenchmarking_1"}
+{"level":"error","time":"2024-04-26T15:56:27.575+0530","caller":"core/lifecycle.go:327","msg":"2024-04-26T15:56:20+05:30    error    \u001b[91mERR_TEST_DSC\u001b[0m     Test Discovery Error: No tests found in test discovery - Error doing test discovery."}
+{"level":"debug","time":"2024-04-26T15:56:27.576+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-26T15:56:27.576+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-26T15:56:27.576+0530","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-26T15:56:27.576+0530","caller":"cmd/bin.go:329","msg":"Exiting application due to error \u001b[91mERR_TEST_DSC\u001b[0m     Test Discovery Error: No tests found in test discovery"}
+{"level":"debug","time":"2024-04-26T16:14:01.330+0530","caller":"cmd/bin.go:106","msg":"cli os: darwin, cli arch: amd64"}
+{"level":"debug","time":"2024-04-26T16:14:02.482+0530","caller":"cmd/bin.go:115","msg":"Upstream version details: {Name:cli Min:0.2.170 Max:0.2.179} "}
+{"level":"warn","time":"2024-04-26T16:14:04.490+0530","caller":"globalconfigvalidator/setup.go:35","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-04-26T16:14:04.490+0530","caller":"globalconfigvalidator/setup.go:40","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-04-26T16:14:04.490+0530","caller":"core/lifecycle.go:110","msg":"Setting environment"}
+{"level":"debug","time":"2024-04-26T16:14:04.491+0530","caller":"core/lifecycle.go:113","msg":"Parsing config"}
+{"level":"debug","time":"2024-04-26T16:14:04.491+0530","caller":"yamlconfigmanager/setup.go:550","msg":"Custom location for .hyperexecute.yaml specified. Using: hyp.yaml"}
+{"level":"debug","time":"2024-04-26T16:14:04.491+0530","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : hyp.yaml"}
+{"level":"debug","time":"2024-04-26T16:14:05.162+0530","caller":"yamlconfigmanager/setup.go:2074","msg":"Autodetecting test type in files of path : /Users/amanc/Documents/benchmarking/BS_SL_HYP"}
+{"level":"debug","time":"2024-04-26T16:14:05.164+0530","caller":"yamlconfigmanager/setup.go:402","msg":"Tunnel: false"}
+{"level":"info","time":"2024-04-26T16:14:05.164+0530","caller":"models/HypertestYamlConfig.go:593","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-04-26T16:14:05.165+0530","caller":"models/HypertestYamlConfig.go:397","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-04-26T16:14:05.165+0530","caller":"models/HypertestYamlConfig.go:457","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2024-04-26T16:14:05.165+0530","caller":"models/HypertestYamlConfig.go:465","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-04-26T16:14:05.165+0530","caller":"models/HypertestYamlConfig.go:526","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-04-26T16:14:05.165+0530","caller":"models/HypertestYamlConfig.go:558","msg":"Cache Directories:"}
+{"level":"info","time":"2024-04-26T16:14:05.165+0530","caller":"models/HypertestYamlConfig.go:560","msg":"    \u001b[36m.m2\u001b[0m"}
+{"level":"info","time":"2024-04-26T16:14:05.165+0530","caller":"models/HypertestYamlConfig.go:606","msg":""}
+{"level":"debug","time":"2024-04-26T16:14:05.165+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-04-26T16:14:05.165+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-04-26T16:14:06.248+0530","caller":"snoopermanager/setup.go:195","msg":"upstream version: 1.21.0 "}
+{"level":"debug","time":"2024-04-26T16:14:06.958+0530","caller":"testdiscoverer/discoverer.go:76","msg":"Test Discovery Command: /Users/amanc/Documents/benchmarking/BS_SL_HYP/.hyperexecute/snooper --featureFilePaths=src/main/java/hypertest/features/ --frameWork=java --specificTags=@LTBenchmarking_1"}
+{"level":"debug","time":"2024-04-26T16:14:06.958+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: /Users/amanc/Documents/benchmarking/BS_SL_HYP/.hyperexecute/snooper  --targetOs=win --featureFilePaths=src/main/java/hypertest/features/ --frameWork=java --specificTags=@LTBenchmarking_1"}
+{"level":"debug","time":"2024-04-26T16:14:07.468+0530","caller":"cmd/bin.go:298","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-04-26T16:14:07.468+0530","caller":"cmd/bin.go:299","msg":"Sending abort job signal to sentinel"}
+{"level":"error","time":"2024-04-26T16:14:07.587+0530","caller":"core/lifecycle.go:327","msg":"2024-04-26T16:14:01+05:30    error    \u001b[91mERR_TEST_DSC\u001b[0m     Test Discovery Error: No tests found in test discovery - Error doing test discovery."}
+{"level":"debug","time":"2024-04-26T16:14:07.588+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-04-26T16:14:07.588+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-04-26T16:14:07.588+0530","caller":"core/lifecycle.go:59","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-04-26T16:14:17.548+0530","caller":"cmd/bin.go:314","msg":"main: telling goroutines to stop"}
+{"level":"error","time":"2024-04-26T16:15:17.549+0530","caller":"cmd/bin.go:321","msg":"2024-04-26T16:14:01+05:30    error    \u001b[91mERR::TIME::OUT\u001b[0m     Time Exceeded.    Graceful timeout exceeded. Brutally killing the application"}
